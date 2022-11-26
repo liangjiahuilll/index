@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 814px;
+    background-image: url(https://liangjia.oss-cn-beijing.aliyuncs.com/top_background.png);
+    background-size: 100% 100%;
+}
+.header_background{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 97px;
+    margin: auto;
+    background-color: rgba(0,0,0,0);
+}
+.nav div{
+    width: 200px;
+    height: 100%;
+    text-align: center;
+}
+.nav #topnav a{
+    color: white;
+    text-decoration: none;
+    line-height: 97px;
+    font-size: 25px;
+}
+.nav #topnav a:hover{
+    color: #807a7a;
+}
+.nav #topnav_img{
+    width: 233px;
+    height: 100%;
+    background-color: #e8024d;
+    text-align: center;
+}
+.nav #topnav_img img{
+    margin: 18px auto 0;
+}
+.nav_img{
+    position: absolute;
+    top: 319px;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+}
+.container_one{
+    width: 100%;
+    height: 640px;
+    background-color: white;
+}
+.container_one_background{
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 448px;
+    background-color: #eae7e8;
+}
+.container_one .content_center{
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+    height: 100%;
+    width: 1200px;
+}
+.container_one .introduction{
+    position: absolute;
+    top: 39px;
+    right: 0;
+    width: 1151px;
+    height: 505px;
+    background-color: white;
+    box-shadow: 2px 2px 3px 3px #ccc;
+}
+.container_one .introduction_image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 505px;    
+}
+.container_one .text_title{
+    position: absolute;
+    top: 73px;
+    left: 528px;
+    width: 438px;
+}
+.container_one .text_part_one{
+    position: absolute;
+    top: 176px;
+    right: 55px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.container_one .text_part_two{
+    position: absolute;
+    bottom: 62px;
+    right: 55px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.container_one .video{
+    position: absolute;
+    left: 168px;
+    top: 374px;
+    width: 365px;
+    height: 235px;
+    background-color: #ef4d82;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 235px;
+}
+.container_one .video:hover{
+    background-color: #e8024d;
+    opacity: 0.8;
+}
+.container_two{
+    position: relative;
+    width: 100%;
+    height: 682px;
+    background-color: white;
+}
+.container_two .series_title{
+    position: absolute;
+    top: 99px;
+    left: 50%;
+    margin-left: -152px;
+    width: 304px;
+}
+.container_two .series_text{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 255px;
+    left: 50%;
+    margin-left: -600px;
+    height: 237px;
+    width: 1200px;
+}
+.container_two .series_text div{
+    width: 360px;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+.btn{
+    position: absolute;
+    bottom: 43px;
+    left: 50%;
+    margin-left: -120px;
+    width: 240px;
+    height: 65px;
+    background-color: #2b2b2b;
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}   
+.btn a:hover{
+    color: #807a7a;
+}
+.container_three{
+    position: relative;
+    width: 100%;
+    height: 388px;
+    background-color: #dad8d9;
+}
+.container_three .picture_one{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+    height: 222px;
+    background-image: url(https://liangjia.oss-cn-beijing.aliyuncs.com/pen01.png);
+}
+.container_three .picture_two{
+    position: absolute;
+    top: 222px;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+}
+.container_three .icon{
+    position: absolute;
+    top: 195px;
+    left: 40px;
+    width: 89px;
+    height: 35px;
+    background-color: #e8024d;
+    text-align: center;
+    line-height: 35px;
+}
+.container_four{
+    width: 100%;
+    height: 1358px;
+    background-color: white;
+}
+.container_four_backgroundone{
+    position: relative;
+    width: 100%;
+    height: 378px;
+    background-color: #6f6d6d;
+}
+.container_four_backgroundone .content_word_one{
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    margin-left: -79px;
+    width: 158px;
+}
+.container_four_backgroundone .content_word_two{
+    position: absolute;
+    top: 113px;
+    left: 50%;
+    margin-left: -151px;
+    width: 302px;
+}
+.container_four_backgroundone .content_text{
+    position: absolute;
+    top: 168px;
+    left: 50%;
+    margin-left: -406.5px;
+    width: 813px;
+    height: 273px;
+    background-color: white;
+    box-shadow: 2px 2px 3px 3px #ccc;
+}
+.container_four_backgroundone .content_text img{
+    position: absolute;
+    top: 37px;
+    left: 50%;
+    margin-left: -37.5px;
+    width: 75px;
+}
+.container_four_backgroundone .content_text p{
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    margin-left: -267px;
+    width: 534px;
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+}
+.container_four_backgroundone .content_text #scroll{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -94.5px;
+    width: 189px;
+    height: 9px;
+    background-color: white;
+}
+.container_four_backgroundone .content_text #scroll div{
+    width: 43px;
+    height: 100%;
+    background-color: #807a7a;
+}
+.container_four_backgroundtwo{
+    width: 100%;
+    height: 980px;
+    background-color: white;
+}
+.container_four_backgroundone .content_word_three{
+    position: absolute;
+    top: 556px;
+    left: 50%;
+    margin-left: -35px;
+    width: 70px;
+}
+.container_four_backgroundone .content_word_four{
+    position: absolute;
+    top: 586px;
+    left: 50%;
+    margin-left: -79px;
+    width: 158px;
+}
+.container_four_backgroundone .content_image{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 653px;
+    left: 50%;
+    margin-left: -441px;
+    width: 882px;
+    height: 551px;
+    background-color: white;
+}
+#images{
+    height: 100%;
+    width: 249px;
+    background-color: white;
+}
+#images_one{
+    height: 227px;
+    width: 100%;
+}
+#images_two{
+    height: 303px;
+    width: 100%;
+    margin-top: 21px;
+}
+#images_three{
+    height: 372px;
+    width: 100%;
+}
+#images_four{
+    height: 163px;
+    width: 100%;
+    margin-top: 16px;
+}
+#images_five{
+    height: 227px;
+    width: 100%;
+}
+#images_six{
+    height: 303px;
+    width: 100%;
+    margin-top: 21px;
+}
+.btn_two{
+    position: absolute;
+    top: 1251px;
+    left: 50%;
+    margin-left: -120px;
+    width: 240px;
+    height: 65px;
+    background-color: #4a3e42;
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+}
+.btn_two a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.btn_two a:hover{
+    color: #807a7a;
+}
+.container_five{
+    width: 100%;
+    height: 652px;
+    background-color: white;
+}
+.container_five_background{
+    position: relative;
+    width: 100%;
+    height: 341px;
+    background-color: #5d585f;
+}
+.container_five_background .content_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -437px;
+    width: 874px;
+    height: 432px;
+    background-color: white;
+    box-shadow: 2px 2px 3px 3px #ccc;
+}
+.container_five_background .images_one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 121px;
+    margin-top: 17px;
+    background:rgba(0, 0, 0, 0);
+    text-align: center;
+    line-height: 121px;
+}
+.container_five_background .images_two{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 121px;
+    background:rgba(0, 0, 0, 0);
+}
+.container_five_background .images_three{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 121px;
+    margin-bottom: 17px;
+    background:rgba(0, 0, 0, 0);
+}
+.container_five_background #images_picture{
+    height: 100%;
+    margin-left: 21px;
+}
+.container_five_background #images_words{
+    width: 443px;
+    height: 57px;
+    margin-right: 21px;
+    margin-top: 22px;
+    text-align: center;
+    line-height: 121px;
+}
+.btn_three{
+    position: absolute;
+    top: 563px;
+    left: 50%;
+    margin-left: -120px;
+    width: 240px;
+    height: 65px;
+    background-color: #e8024d;
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.btn_three a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.btn_three a:hover{
+    color: #807a7a;
+}
+.footer{
+    width: 100%;
+    height: 1010px;
+    background-color: black;
+}
+.footer_background{
+    position: relative;
+    width: 100%;
+    height: 977px;
+    background-image: url(https://liangjia.oss-cn-beijing.aliyuncs.com/bottom.png);
+    background-size: 100% 100%;
+}
+.footer_background_img{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 218px;
+    left: 50%;
+    margin-left: -285px;
+    width: 570px;
+    height: 95px;
+}
+#small_sign{
+    width: 94px;
+    height: 51px;
+    margin-top: 46px;
+}
+#big_sign{
+    width: 330px;
+    height: 100%;
+    margin-top: 0;
+}
+.copyright{
+    width: 100%;
+    height: 33px;
+    background-color: #535353;
+    text-align: center;
+    line-height: 33px;
+}
+.copyright img{
+    width: 245px;
+}
